@@ -10,28 +10,60 @@ class HomeScreen extends StatelessWidget {
         bottom: false,
         child: Container(
           color: Colors.black,
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.start,
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-              Container(
-                color: Colors.red,
-                width: 50.0,
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Container(
+                    height: 50.0,
+                    width: 50.0,
+                    color: Colors.red,
+                  ),Container(
+                    height: 50.0,
+                    width: 50.0,
+                    color: Colors.orange,
+                  ),Container(
+                    height: 50.0,
+                    width: 50.0,
+                    color: Colors.yellow,
+                  ),Container(
+                    height: 50.0,
+                    width: 50.0,
+                    color: Colors.green,
+                  ),
+                ],
+              ),Container(
                 height: 50.0,
-              ),
-              Container(
+                width: 50.0,
                 color: Colors.orange,
-                width: 50.0,
-                height: 50.0,
               ),
-              Container(
-                color: Colors.yellow,
-                width: 50.0,
+              Row(
+                mainAxisAlignment: MainAxisAlignment.end,
+                children: [
+                  Container(
+                    height: 50.0,
+                    width: 50.0,
+                    color: Colors.red,
+                  ),Container(
+                    height: 50.0,
+                    width: 50.0,
+                    color: Colors.orange,
+                  ),Container(
+                    height: 50.0,
+                    width: 50.0,
+                    color: Colors.yellow,
+                  ),Container(
+                    height: 50.0,
+                    width: 50.0,
+                    color: Colors.green,
+                  ),
+                ],
+              ),Container(
                 height: 50.0,
-              ),
-              Container(
+                width: 50.0,
                 color: Colors.green,
-                width: 50.0,
-                height: 50.0,
               ),
             ],
           ),
